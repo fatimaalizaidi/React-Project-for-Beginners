@@ -1,0 +1,42 @@
+*{
+    font-family: var(--font);
+}
+.logo img{
+    height: 100px;
+    object-fit: cover;
+   
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.nav_list{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap:30px;
+    font-family:var(--font);
+    font-weight:600;
+}
+.nav_btn{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login_btn{
+    background-color: brown;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,33 @@
+.content h1{
+    font-size: 60px;
+    ;
+}
+.content h3{
+    color: brown;
+    font-weight: 600;
+    font-size: 30px;
+
+}
+
+.content h4{
+    font-size: 20px;
+}
+
+.content{
+    display:flex;
+    gap:20px;
+    flex-direction: column;
+
+}
+
+.shoes {
+width: 120%;
+
+}
+
+.shoes img{
+ width: 100%;
+ object-fit: cover;
+
+
+}
